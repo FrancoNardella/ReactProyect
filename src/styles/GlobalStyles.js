@@ -25,12 +25,6 @@ export const GlobalStyles = createGlobalStyle`
     }
     a {
     text-decoration: none;
-    color: white;
     }
-    a:visited {
-    color: white;
-    }
-    li {
-    list-style: none;
-    }
+   
 `;

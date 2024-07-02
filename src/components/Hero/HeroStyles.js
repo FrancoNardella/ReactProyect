@@ -10,13 +10,19 @@ export const HeroContainerStyled = styled.section`
   h1 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
     font-size: 72px;
     width: 780px;
+  }
+
+  p {
+    font-size: 2rem;
   }
 `;
 
 export const HeroImgStyled = styled.div`
-  width: 70%;
+  width: 60%;
   img {
     width: 100%;
     padding-bottom: 75px;

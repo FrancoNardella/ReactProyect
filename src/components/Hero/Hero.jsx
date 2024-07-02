@@ -8,7 +8,7 @@ export const Hero = () => {
         <img src={HeroImg} alt="Imagen de mascotas" />
       </HeroImgStyled>
       <div>
-        <p>Texto de la landing</p>
+        <p>Creando momentos felices para tus mascotas</p>
       </div>
     </HeroContainerStyled>
   );
