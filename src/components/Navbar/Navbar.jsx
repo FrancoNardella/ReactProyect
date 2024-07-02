@@ -1,23 +1,18 @@
 import * as s from "./NavbarStyles";
+import imgLogo from "/public/img/huella.png";
 
 export const Navbar = () => {
   return (
     <s.HeaderContainer>
       <a href="#">
-        <img src="./huella.png" alt="logo" />
+        <img src={imgLogo} alt="logo" />
       </a>
-      <s.LinksContainer>
-        <s.NavbarContainer>
+      <s.NavbarContainer>
+        <s.NavbarItems>
           <a href="#">Nosotros</a>
           <a href="#">Productos</a>
-        </s.NavbarContainer>
-
-        {/* <s.UserNav>
-          <s.UserContainer>
-            <s.SpanStyled>Inicia sesion</s.SpanStyled>
-          </s.UserContainer>
-        </s.UserNav> */}
-      </s.LinksContainer>
+        </s.NavbarItems>
+      </s.NavbarContainer>
     </s.HeaderContainer>
   );
 };
