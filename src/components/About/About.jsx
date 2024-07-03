@@ -1,17 +1,51 @@
 import * as s from "./AboutStyles";
+import imgPerro1 from "/img/perro1.png";
+import imgPerro2 from "/img/perro2.png";
 
 export const About = () => {
   return (
-    // <h1>hola about</h1>
     <s.AboutContainer>
-      {/* <s.AboutItems>
-        <s.AboutItem> */}
-      <h1>Si tenes Zappi,</h1>
-      <h2>tenes Nucba</h2>
-      <p>Buscá lo que quieras y Nucba te quedes sin comida</p>
-      {/* <Button radius={"10"}>Ver mas</Button> */}
-      {/* </s.AboutItem>
-      </s.AboutItems> */}
+      <h2>Nosotros</h2>
+      <p>
+        Somos una tienda en línea dedicada a ofrecer los mejores productos para
+        mascotas, desde juguetes y alimentos hasta accesorios y productos de
+        higiene. Nuestro objetivo es garantizar la felicidad y el bienestar de
+        tus compañeros peludos.
+      </p>
+      <s.AboutItems>
+        <s.AboutImg>
+          <img src={imgPerro1} alt="perro" />
+        </s.AboutImg>
+        <s.AboutText>
+          <h2>Calidad Garantizada:</h2>
+          <p>
+            Trabajamos solo con marcas de confianza que cumplen con altos
+            estándares de calidad.
+          </p>
+          <h2>Envíos Rápidos:</h2>
+          <p>
+            Ofrecemos opciones de envío rápido para que nunca te quedes sin lo
+            que necesitas.
+          </p>
+          {/* <Button radius={"10"}>Ver mas</Button> */}
+        </s.AboutText>
+        <s.AboutText>
+          <h2>Atención Personalizada:</h2>
+          <p>
+            Nuestro equipo de expertos está siempre dispuesto a ayudarte a
+            encontrar el producto perfecto para tu mascota.
+          </p>
+          <h2>Compromiso con el Medio Ambiente: </h2>
+          <p>
+            Utilizamos empaques sostenibles y apoyamos prácticas de producción
+            responsables.
+          </p>
+          {/* <Button radius={"10"}>Ver mas</Button> */}
+        </s.AboutText>
+        <s.AboutImg>
+          <img src={imgPerro2} alt="perro" />
+        </s.AboutImg>
+      </s.AboutItems>
     </s.AboutContainer>
   );
 };
