@@ -13,38 +13,42 @@ export const About = () => {
         tus compañeros peludos.
       </p>
       <s.AboutItems>
-        <s.AboutImg>
-          <img src={imgPerro1} alt="perro" />
-        </s.AboutImg>
-        <s.AboutText>
-          <h2>Calidad Garantizada:</h2>
-          <p>
-            Trabajamos solo con marcas de confianza que cumplen con altos
-            estándares de calidad.
-          </p>
-          <h2>Envíos Rápidos:</h2>
-          <p>
-            Ofrecemos opciones de envío rápido para que nunca te quedes sin lo
-            que necesitas.
-          </p>
-          {/* <Button radius={"10"}>Ver mas</Button> */}
-        </s.AboutText>
-        <s.AboutText>
-          <h2>Atención Personalizada:</h2>
-          <p>
-            Nuestro equipo de expertos está siempre dispuesto a ayudarte a
-            encontrar el producto perfecto para tu mascota.
-          </p>
-          <h2>Compromiso con el Medio Ambiente: </h2>
-          <p>
-            Utilizamos empaques sostenibles y apoyamos prácticas de producción
-            responsables.
-          </p>
-          {/* <Button radius={"10"}>Ver mas</Button> */}
-        </s.AboutText>
-        <s.AboutImg>
-          <img src={imgPerro2} alt="perro" />
-        </s.AboutImg>
+        <s.AboutItem>
+          <s.AboutImg className="img1">
+            <img src={imgPerro1} alt="perro" />
+          </s.AboutImg>
+          <s.AboutText>
+            <h2>Calidad Garantizada:</h2>
+            <p>
+              Trabajamos solo con marcas de confianza que cumplen con altos
+              estándares de calidad.
+            </p>
+            <h2>Envíos Rápidos:</h2>
+            <p>
+              Ofrecemos opciones de envío rápido para que nunca te quedes sin lo
+              que necesitas.
+            </p>
+            {/* <Button radius={"10"}>Ver mas</Button> */}
+          </s.AboutText>
+        </s.AboutItem>
+        <s.AboutItem>
+          <s.AboutText>
+            <h2>Atención Personalizada:</h2>
+            <p>
+              Nuestro equipo de expertos está siempre dispuesto a ayudarte a
+              encontrar el producto perfecto para tu mascota.
+            </p>
+            <h2>Compromiso con el Medio Ambiente: </h2>
+            <p>
+              Utilizamos empaques sostenibles y apoyamos prácticas de producción
+              responsables.
+            </p>
+            {/* <Button radius={"10"}>Ver mas</Button> */}
+          </s.AboutText>
+          <s.AboutImg className="img2">
+            <img src={imgPerro2} alt="perro" />
+          </s.AboutImg>
+        </s.AboutItem>
       </s.AboutItems>
     </s.AboutContainer>
   );

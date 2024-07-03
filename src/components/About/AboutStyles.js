@@ -33,12 +33,30 @@ export const AboutItems = styled.div`
   /* border: 1px solid crimson; */
 `;
 
+export const AboutItem = styled.div`
+  display: flex;
+  width: 75%;
+
+  .img1 {
+    margin-right: 70px;
+    margin-left: 30px;
+    /* border: 1px solid crimson; */
+  }
+
+  .img2 {
+    margin-right: 30px;
+    margin-left: 50px;
+    /* border: 1px solid crimson; */
+  }
+  /* border: 1px solid crimson; */
+`;
+
 export const AboutImg = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5%;
-  width: 20%;
+  width: 40%;
   padding: 20px 20px;
 
   box-shadow: 0 0 10px #f5e0b1, 0 0 40px #f5e0b1;
@@ -50,8 +68,8 @@ export const AboutImg = styled.div`
 `;
 
 export const AboutText = styled.div`
-  padding: 5px 10px;
-  width: 40%;
+  padding: 5px 40px;
+  width: 45%;
   /* border: 1px solid crimson; */
 
   p {
@@ -60,5 +78,6 @@ export const AboutText = styled.div`
     font-size: 14pt;
     width: 70%;
     height: 70px;
+    /* border: 1px solid crimson; */
   }
 `;
