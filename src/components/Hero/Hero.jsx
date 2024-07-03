@@ -9,6 +9,7 @@ import HeroDogChow from "/public/img/DogChow.png";
 import HeroEukanauba from "/public/img/eukanuba.png";
 import HeroPedigree from "/public/img/Pedigree.png";
 import HeroVital from "/public/img/Vital.jpg";
+
 export const Hero = () => {
   return (
     <HeroContainerStyled>
