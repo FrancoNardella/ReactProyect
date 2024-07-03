@@ -17,9 +17,9 @@ export const GlobalStyles = createGlobalStyle`
     body {
     margin: 0;
     padding: 0;
-    background: #131415;
+    background: #E1D9C7;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: black;
     -webkit-tap-highlight-color: transparent;
     overflow-x: hidden
     }
