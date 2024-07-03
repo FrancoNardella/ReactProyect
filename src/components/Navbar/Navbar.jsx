@@ -9,8 +9,8 @@ export const Navbar = () => {
       </a>
       <s.NavbarContainer>
         <s.NavbarItems>
-          <a href="#">Nosotros</a>
-          <a href="#">Productos</a>
+          <a href="#About">Nosotros</a>
+          <a href="#Products">Productos</a>
         </s.NavbarItems>
       </s.NavbarContainer>
     </s.HeaderContainer>
