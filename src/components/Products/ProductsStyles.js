@@ -38,25 +38,26 @@ export const ProductCardInfoStyled = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #f5e0b1;
+  background-color: #f58726;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   width: 350px;
   height: 170px;
 
   h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
   p {
-    margin-left: 25px;
+    display: flex;
+    justify-content: center;
     font-size: 20px;
   }
 `;
 
 export const ButtonContainerStyled = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  padding-bottom: 20px;
 `;

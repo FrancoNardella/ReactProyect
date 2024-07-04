@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
   height: 100px;
-  background-color: #f5e0b1;
+  background-color: #f58726;
   display: flex;
   flex-direction: column;
   justify-content: center;

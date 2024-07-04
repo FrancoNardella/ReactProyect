@@ -9,6 +9,7 @@ export const AboutContainer = styled.div`
   /* border: 1px solid crimson; */
 
   h2 {
+    color: #af200c;
     font-size: 20pt;
   }
 

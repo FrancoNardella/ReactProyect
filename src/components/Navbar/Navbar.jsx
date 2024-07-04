@@ -1,5 +1,5 @@
 import * as s from "./NavbarStyles";
-import imgLogo from "/img/huella.png";
+import imgLogo from "/img/Marca.png";
 
 export const Navbar = () => {
   return (

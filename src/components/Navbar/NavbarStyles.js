@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   height: 100px;
-  background-color: #f5e0b1;
+  background-color: #f58726;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 4rem;
 
   img {
-    width: 70px;
-    height: 70px;
+    width: 800px;
+    height: 200px;
   }
 `;
 
@@ -37,6 +37,7 @@ export const NavbarItems = styled.div`
   }
 
   a {
-    color: #000000;
+    color: white;
+    font-size: 25px;
   }
 `;

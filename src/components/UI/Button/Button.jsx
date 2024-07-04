@@ -6,8 +6,8 @@ export const Button = styled(motion.button)`
   outline: none;
   border: none;
   border-radius: ${({ radius }) => `${radius}px`};
-  background: #ff9d01;
-  color: white;
+  background: #ffffff;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 400;
   cursor: pointer;
