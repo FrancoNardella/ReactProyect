@@ -38,7 +38,7 @@ export const ProductCardInfoStyled = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #374654;
+  background-color: #f5e0b1;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   width: 350px;
