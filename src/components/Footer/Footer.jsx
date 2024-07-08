@@ -1,6 +1,6 @@
 import * as s from "./FooterStyles";
 import logoFooter from "/img/Footer.jpg";
-import logoFace from "/img/Facebook.png";
+import logoFace from "/img/Face.png";
 import logoTw from "/img/X.png";
 import logoIg from "/img/Instagram.png";
 
