@@ -6,11 +6,29 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 1.5rem 5rem;
 
   img {
     width: 800px;
     height: 200px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem 2rem;
+
+    img {
+      width: 400px;
+      height: 100px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.5rem 1.2rem;
+
+    img {
+      width: 330px;
+      height: 80px;
+    }
   }
 `;
 
@@ -20,9 +38,28 @@ export const NavbarContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 40px;
-  /* border: solid 2px red; */
+  width: 400px;
+
   a {
     padding: 1rem 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    gap: 20px;
+    width: 200px;
+
+    a {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    gap: 10px;
+    width: 100px;
+
+    a {
+      padding: 0.25rem 0.5rem;
+    }
   }
 `;
 
@@ -30,7 +67,6 @@ export const NavbarItems = styled.div`
   font-size: 1.2rem;
   display: flex;
   align-items: center;
-  /* border: solid 2px red; */
 
   @media (max-width: 768px) {
     display: none;

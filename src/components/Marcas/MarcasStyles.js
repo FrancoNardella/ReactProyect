@@ -5,7 +5,16 @@ export const HeroMarcaStyled = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 70px;
+
+  @media (max-width: 768px) {
+    gap: 35px;
+    flex-direction: column;
+  }
+
+  @media (max-width: 480px) {
+    gap: 20px;
+  }
 `;
 
 export const HeroCardMarcaStyled = styled.div`
@@ -14,9 +23,17 @@ export const HeroCardMarcaStyled = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
-  max-width: 200px;
+  max-width: 300px;
 
   img {
     width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    gap: 15px;
+  }
+
+  @media (max-width: 480px) {
+    gap: 10px;
   }
 `;

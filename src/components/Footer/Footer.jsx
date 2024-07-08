@@ -1,13 +1,15 @@
 import * as s from "./FooterStyles";
-import logoFace from "/img/facebook.png";
-import logoTw from "/img/gorjeo.png";
-import logoIg from "/img/instagram.png";
+import logoFooter from "/img/Footer.jpg";
+import logoFace from "/img/Facebook.png";
+import logoTw from "/img/X.png";
+import logoIg from "/img/Instagram.png";
 
 export const Footer = () => {
   return (
     <s.FooterContainer>
+      <img src={logoFooter} alt="footer" />
       <s.FooterText>
-        <h3>Hecho con 🧡 por Franco</h3>
+        <h3>¡Seguinos en las redes!</h3>
       </s.FooterText>
       <s.FooterIconos>
         <img src={logoFace} alt="logoFace" />

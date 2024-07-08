@@ -6,19 +6,27 @@ export const HeroContainerStyled = styled.section`
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* gap: 30px; */
 
   p {
     font-size: 2rem;
   }
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    p {
+      font-size: 1rem;
+    }
+  }
 `;
 
 export const HeroImgStyled = styled.div`
-  /* width: 60%; */
-
   img {
     width: 100%;
-    /* padding-bottom: 75px; */
   }
 
   h1 {
@@ -30,6 +38,19 @@ export const HeroImgStyled = styled.div`
     margin-top: 230px;
     margin-left: 700px;
     color: #0b4a89;
-    /* border: 1px solid red; */
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+      width: 450px;
+      margin-top: 115px;
+      margin-left: 350px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 20px;
+      width: 200px;
+      margin-top: 75px;
+      margin-left: 160px;
+    }
   }
 `;

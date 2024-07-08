@@ -1,6 +1,6 @@
 import * as s from "./AboutStyles";
-import imgPerro1 from "/img/perro1.png";
-import imgPerro2 from "/img/perro2.png";
+import imgPerro1 from "/img/Perro fondo celeste.jpg";
+import imgPerro2 from "/img/Gato fondo naranja.jpg";
 
 export const About = () => {
   return (
@@ -17,7 +17,7 @@ export const About = () => {
           <s.AboutImg className="img1">
             <img src={imgPerro1} alt="perro" />
           </s.AboutImg>
-          <s.AboutText>
+          <s.AboutText className="textAbout1">
             <h2>Calidad Garantizada:</h2>
             <p>
               Trabajamos solo con marcas de confianza que cumplen con altos
@@ -32,7 +32,7 @@ export const About = () => {
           </s.AboutText>
         </s.AboutItem>
         <s.AboutItem>
-          <s.AboutText>
+          <s.AboutText className="textAbout2">
             <h2>Atención Personalizada:</h2>
             <p>
               Nuestro equipo de expertos está siempre dispuesto a ayudarte a

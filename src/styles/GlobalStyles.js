@@ -17,7 +17,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
     margin: 0;
     padding: 0;
-    background: #E1D9C7;
+    background: #ffffff;
     font-family: 'Montserrat', sans-serif;
     color: black;
     -webkit-tap-highlight-color: transparent;
@@ -26,5 +26,5 @@ export const GlobalStyles = createGlobalStyle`
     a {
     text-decoration: none;
     }
-   
+
 `;
