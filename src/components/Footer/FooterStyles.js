@@ -38,8 +38,8 @@ export const FooterText = styled.div`
   }
 
   @media (max-width: 480px) {
-    margin: 0 0 50px 350px;
-    font-size: 10pt;
+    margin: 0 0 10px 250px;
+    font-size: 8pt;
     width: 150px;
   }
 `;
@@ -73,6 +73,6 @@ export const FooterIconos = styled.div`
   }
 
   @media (max-width: 480px) {
-    margin: 120px 0 50px 350px;
+    margin: 120px 0 70px 250px;
   }
 `;

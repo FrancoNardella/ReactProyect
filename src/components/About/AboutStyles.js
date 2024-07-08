@@ -16,6 +16,8 @@ export const AboutContainer = styled.div`
 
     @media (max-width: 480px) {
       font-size: 20pt;
+      height: fit-content;
+      /* border: 1px solid crimson; */
     }
   }
 
@@ -33,8 +35,10 @@ export const AboutContainer = styled.div`
     }
 
     @media (max-width: 480px) {
+      height: fit-content;
       font-size: 10pt;
       width: 90%;
+      /* border: 1px solid crimson; */
     }
   }
 `;
@@ -63,8 +67,10 @@ export const AboutItem = styled.div`
     }
 
     @media (max-width: 480px) {
-      margin: 20px 0 0 20px;
-      width: 90%;
+      margin: 20px 0 0 70px;
+      height: 32%;
+      width: 70%;
+      /* border: 1px solid crimson; */
     }
   }
 
@@ -79,8 +85,10 @@ export const AboutItem = styled.div`
     }
 
     @media (max-width: 480px) {
-      margin: 20px 0 0 10px;
-      width: 90%;
+      margin: 8px 0 0 0;
+      width: 80%;
+      height: 32%;
+      /* border: 1px solid crimson; */
     }
   }
 `;
@@ -113,6 +121,13 @@ export const AboutText = styled.div`
   h2 {
     font-size: 35pt;
     height: 60px;
+
+    @media (max-width: 480px) {
+      padding-left: 5px;
+      font-size: 12pt;
+      height: fit-content;
+      width: 80%;
+    }
   }
 
   p {
@@ -121,5 +136,12 @@ export const AboutText = styled.div`
     font-size: 25pt;
     width: 100%;
     height: 100px;
+
+    @media (max-width: 480px) {
+      padding-left: 5px;
+      font-size: 10pt;
+      height: fit-content;
+      width: 90%;
+    }
   }
 `;
