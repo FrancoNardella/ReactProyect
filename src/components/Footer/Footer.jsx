@@ -19,3 +19,5 @@ export const Footer = () => {
     </s.FooterContainer>
   );
 };
+
+export default Footer;

@@ -53,3 +53,5 @@ export const About = () => {
     </s.AboutContainer>
   );
 };
+
+export default About;

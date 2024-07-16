@@ -1,16 +1,17 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const HeaderContainer = styled.header`
-  height: 100px;
+  /* height: 100px; */
   background-color: #f58726;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 5rem;
+  padding: 0 5rem;
 
   img {
-    width: 800px;
-    height: 200px;
+    width: 500px;
+    height: 100px;
   }
 
   @media (max-width: 768px) {
@@ -42,6 +43,7 @@ export const NavbarContainer = styled.div`
 
   a {
     padding: 1rem 1.5rem;
+    /* border: 1px solid crimson; */
   }
 
   @media (max-width: 768px) {
@@ -74,6 +76,14 @@ export const NavbarItems = styled.div`
 
   a {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+  }
+`;
+
+export const NavLinkStyled = styled(NavLink)`
+  color: white;
+
+  &.active {
+    color: #f1c40f;
   }
 `;
