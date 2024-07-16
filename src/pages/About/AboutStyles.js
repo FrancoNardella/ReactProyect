@@ -5,6 +5,7 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 
   h2 {
     color: #0b4a89;

@@ -119,6 +119,7 @@ export const ProductContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 40px;
+  margin-bottom: 200px;
 `;
 
 export const Card = styled.div`

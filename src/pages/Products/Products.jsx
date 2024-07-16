@@ -51,7 +51,7 @@ import { Card, LinkItem, ProductContainer, Title } from "./ProductsStyles";
 function Products() {
   return (
     <>
-      <Title>Puede ser pa?</Title>
+      <Title>Nuestros Productos</Title>
       <ProductContainer>
         {productList?.map((product) => (
           <Card key={product.id}>
