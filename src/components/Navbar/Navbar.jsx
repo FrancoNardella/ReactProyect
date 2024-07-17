@@ -12,7 +12,7 @@ export const Navbar = () => {
           <s.NavLinkStyled to="/">Home</s.NavLinkStyled>
           <s.NavLinkStyled to="/about">Nosotros</s.NavLinkStyled>
           <s.NavLinkStyled to="/products">Productos</s.NavLinkStyled>
-          <s.NavLinkStyled to="/contactanos">Contactanos</s.NavLinkStyled>
+          <s.NavLinkStyled to="/contact">Contactanos</s.NavLinkStyled>
         </s.NavbarItems>
       </s.NavbarContainer>
     </s.HeaderContainer>

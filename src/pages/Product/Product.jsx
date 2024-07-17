@@ -8,9 +8,10 @@ const ProductContainer = styled.div`
   justify-content: center;
   padding: 5rem 0 0;
   gap: 40px;
+  margin-bottom: 100px;
 
   img {
-    width: 50%;
+    width: 600px;
   }
 `;
 
@@ -25,7 +26,7 @@ function Product() {
       <img src={product.src} alt="" />
       <div>
         <h2>Seccion de {productName}</h2>
-        <button onClick={() => navigate("/")}>Volver atras</button>
+        <button onClick={() => navigate("/products")}>Volver atras</button>
       </div>
     </ProductContainer>
   );

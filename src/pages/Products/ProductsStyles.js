@@ -123,7 +123,7 @@ export const ProductContainer = styled.div`
 `;
 
 export const Card = styled.div`
-  background-color: #16161a;
+  background-color: #f58726;
   padding: 5px 5px 20px;
   color: #fffffe;
   border-radius: 10px;
@@ -132,6 +132,7 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
 
   img {
     border-radius: 8px;
@@ -139,7 +140,8 @@ export const Card = styled.div`
   }
 
   h2 {
-    color: #3da9fc;
+    color: #ffffff;
+    text-align: center;
   }
 
   span {
@@ -149,15 +151,15 @@ export const Card = styled.div`
 `;
 
 export const LinkItem = styled(Link)`
-  color: #3da9fc;
-  border: 1px solid #3da9fc;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 20px;
   padding: 5px 15px;
   transition: all 0.3s ease;
 
   :hover {
-    background: #3da9fc;
-    color: #fff;
+    background: #ffffff;
+    color: #3da9fc;
   }
 `;
 
